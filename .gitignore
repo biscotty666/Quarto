@@ -1,0 +1,7 @@
+.Rhistory
+.Rproj.user
+.direnv
+.envrc
+.ipynb_checkpoints
+.virtual_documents
+Quarto.Rproj

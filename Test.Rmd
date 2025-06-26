@@ -1,0 +1,14 @@
+---
+title: "Test"
+output: html_document
+---
+
+
+```{python}
+import plotly.express as px
+df = px.data.gapminder()
+```
+```{python}
+df
+```
+

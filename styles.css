@@ -1,0 +1,14 @@
+<style>
+#sliderdiv .control-label {
+    font-size: 10px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+#sliderdiv .irs-from, #sliderdiv .irs-to {
+    font-size: 8px !important;
+}
+#sliderdiv .irs-grid {
+    display: none !important;
+}
+</style>
