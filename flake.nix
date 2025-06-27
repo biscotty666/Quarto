@@ -34,6 +34,7 @@
             leaflet
             leaflet_extras
             leaflet_extras2
+            gt
             maps
             leafsync
             elevatr
@@ -52,10 +53,13 @@
             quarto
             osmdata
             viridis
+            RColorBrewer
+            nord
             usethis
             tmap
             tidycensus
             plotly
+            paletteer
             geodata
             prettymapr
             ggspatial
