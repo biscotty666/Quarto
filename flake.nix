@@ -73,6 +73,7 @@
    #         widgetsnbextension
             great-tables
             googlemaps
+            papermill
             #ipympl
   #          jupyter-nbextensions-configurator
             jedi-language-server
@@ -121,7 +122,7 @@
             export PIP_PREFIX=$(pwd)/venvDir
             export PYTHONPATH="$PIP_PREFIX/${pkgs.python3.sitePackages}:$PYTHONPATH"
             export PATH="$PIP_PREFIX/bin:$PATH"
-            export QUARTO_PYTHON=/nix/store/gd59ipgsc4j7pwx6ak080pilsprip66a-python3-3.13.4-env/bin/python
+            export QUARTO_PYTHON=/nix/store/hm6b12ph98fy547h2jmpxba0bsmw736a-python3-3.13.4-env/bin/python
             unset SOURCE_DATE_EPOCH
             #jupyter lab
         '';

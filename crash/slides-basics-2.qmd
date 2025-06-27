@@ -1,0 +1,56 @@
+---
+title: Slide Basics
+subtitle: Quarto crash course
+author: Brian Carey
+date: "2025-26-25"
+bibliography: references.bib
+theme:
+ - cosmo
+ - styles.scss
+format: html
+---
+
+# Quarto Crash Course
+
+```{python}
+import random
+
+for i in range(10):
+  print(random.random())
+```
+
+## Example header
+
+::: {layout="[[30,70],[100]]"}
+
+Here is some text about dragons. So interesting, don't you think. They are such beautiful creatures.
+
+![A dragon](https://upload.wikimedia.org/wikipedia/commons/2/24/Chinese_dragon_asset_heraldry.svg){width="80%"}
+
+Here is some text about birds. So interesting, don't you think. They are such beautiful creatures.
+
+:::
+
+
+## Example header 2
+
+::: {layout-ncol="3"}
+
+Here is some text about dragons. So interesting, don't you think. They are such beautiful creatures.
+
+![A dragon](https://upload.wikimedia.org/wikipedia/commons/2/24/Chinese_dragon_asset_heraldry.svg){width="80%"}
+
+Here is some text about birds. So interesting, don't you think. They are such beautiful creatures.
+
+Here is some text about birds. So interesting, don't you think. They are such beautiful creatures.
+
+Here is some text about birds. So interesting, don't you think. They are such beautiful creatures.
+
+![A bird](https://upload.wikimedia.org/wikipedia/commons/6/67/Bald_Eagle_Head_sq.jpg){width="80%"}
+
+And let's not forget the cats. So interesting, don't you think. They are such beautiful creatures.
+
+
+![A cat](https://upload.wikimedia.org/wikipedia/commons/9/9e/Felis_silvestris_-_July_2007-1.jpg){width="80%"}
+
+:::

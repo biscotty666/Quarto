@@ -1,0 +1,57 @@
+---
+title: Slide Basics
+subtitle: Quarto crash course
+author: Brian Carey
+date: "2025-26-25"
+bibliography: references.bib
+theme:
+ - cosmo
+ - styles.scss
+format: html
+echo: false
+---
+
+```{python}
+#| tags: [parameters]
+
+name = "Brian"
+data_filter = "comedy"
+
+```
+
+# Quarto Crash Course
+
+Can render from cli with different params
+
+```
+quarto render cli-params.qmd -P name:Helen -P data_filter:drama
+```
+Can render from cli and change metadata
+
+```
+quarto render cli-params.qmd -M toc:true -M "title:Such craziness"
+```
+
+## Example header
+
+::: {layout-ncol="3"}
+
+Here is some text about dragons. So interesting, don't you think. They are such beautiful creatures.
+
+![A bird](images/eagle.jpg){width="80%"}
+
+Here is some text about birds. So interesting, don't you think. They are such beautiful creatures.
+
+Here is some text about birds. So interesting, don't you think. They are such beautiful creatures.
+
+
+:::
+
+## Example header 2
+
+```{python}
+#| echo: true
+print(name)
+print(data_filter)
+```
+

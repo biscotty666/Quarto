@@ -1,0 +1,18 @@
+{
+  "index1.qmd": {
+    "index1.html": "b1790ac1"
+  },
+  "markdown-basics.qmd": {
+    "markdown-basics.html": "1266129a"
+  },
+  "slides-basics.qmd": {
+    "slides-basics.html": "2d1d5adb"
+  },
+  "slides-basics-2.qmd": {
+    "slides-basics-2.html": "c10620cd"
+  },
+  "cli-params.qmd": {
+    "cli-params.html": "ac7853a2",
+    "cli-params.tex": "d2ae850c"
+  }
+}

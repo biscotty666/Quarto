@@ -1,0 +1,36 @@
+---
+title: Quarto Example
+subtitle: Quarto crash course
+author: Brian Carey
+date: "2025-26-25"
+bibliography: references.bib
+theme: 
+  - quartz
+  - styles.scss
+---
+
+# Quarto Crash Course
+
+```{python}
+for i in range(10):
+    print("Jello World")
+```
+
+::: {.veryred}
+## Example header
+
+![A dragon](https://upload.wikimedia.org/wikipedia/commons/2/24/Chinese_dragon_asset_heraldry.svg){width="80%"}
+
+Some text
+
+:::
+
+::: {.panel-tabset}
+
+## First thing
+{{< lipsum 1 >}}
+
+## Second thing
+{{< lipsum 1 >}}
+
+:::

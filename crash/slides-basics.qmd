@@ -1,0 +1,37 @@
+---
+title: Slide Basics
+subtitle: Quarto crash course
+author: Brian Carey
+date: "2025-26-25"
+bibliography: references.bib
+css: styles.scss
+format: revealjs
+---
+
+# Quarto Crash Course
+
+```{python}
+import random
+
+for i in range(10):
+  print(random.random())
+```
+
+## Example header
+
+![A dragon](https://upload.wikimedia.org/wikipedia/commons/2/24/Chinese_dragon_asset_heraldry.svg){width="80%"}
+
+Jello world.
+
+:::: {.smaller}
+## Second header
+::: {.incremental}
+- example
+- list
+- of items
+:::
+::::
+
+## Styling text
+
+Text [here is red and big]{.veryred style="font-size:1.2em;"}.
