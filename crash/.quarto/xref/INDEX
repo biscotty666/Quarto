@@ -14,5 +14,9 @@
   "cli-params.qmd": {
     "cli-params.html": "ac7853a2",
     "cli-params.tex": "d2ae850c"
+  },
+  "html-report.qmd": {
+    "html-report.html": "bfeb3b69",
+    "html-report.tex": "8f361529"
   }
 }

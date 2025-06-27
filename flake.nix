@@ -95,6 +95,7 @@
    #         osmpythontools
             folium
             mapclassify
+            wordcloud
             scipy
             networkx
             shapely
@@ -122,7 +123,7 @@
             export PIP_PREFIX=$(pwd)/venvDir
             export PYTHONPATH="$PIP_PREFIX/${pkgs.python3.sitePackages}:$PYTHONPATH"
             export PATH="$PIP_PREFIX/bin:$PATH"
-            export QUARTO_PYTHON=/nix/store/hm6b12ph98fy547h2jmpxba0bsmw736a-python3-3.13.4-env/bin/python
+            export QUARTO_PYTHON=/nix/store/glilgvvwibkyinr2k47qyh7ascxr3q6s-python3-3.13.4-env/bin/python
             unset SOURCE_DATE_EPOCH
             #jupyter lab
         '';
